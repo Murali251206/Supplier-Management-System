@@ -15,9 +15,8 @@ public class MockSupplierDAOImpl implements SupplierDAO {
     private int nextId = 1;
 
     public MockSupplierDAOImpl() {
-        // Add some dummy data
-        addSupplier(new Supplier(0, "Mock Supplier A", "John Doe", "john@mock.com", "1234567890", "123 Mock St", null, false));
-        addSupplier(new Supplier(0, "Mock Supplier B", "Jane Smith", "jane@mock.com", "0987654321", "456 Fake Ave", null, false));
+        // Add default data
+        addSupplier(new Supplier(0, "Murali", "9988776655", "murali@gmail.com", "9988776655", "coimbatore", null, false));
     }
 
     @Override
